@@ -11,7 +11,7 @@ nav {background-color: #e9a781;}
 
 .nav-item {text-align: center;}
 
-#hero .btn-get-started {
+.btn-get-started {
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 1px;
@@ -30,7 +30,7 @@ nav {background-color: #e9a781;}
     font-family: 'Parisienne', cursive;
 }
 
-#hero .btn-get-started:hover {background-color: #4a210a;}
+.btn-get-started:hover {background-color: #4a210a; color: #fff;}
 
 .animated {animation: zoom-in-zoom-out 5s ease-in infinite;}
 
@@ -81,7 +81,7 @@ img {
 
 #footer .credits a:hover {
     transition: 0.3s;
-    color: burlywood;
+    color: rgb(56, 33, 4);
     text-decoration: none;
 }
 

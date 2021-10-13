@@ -91,8 +91,8 @@ characters.forEach( e => {
     // console.log(a)
     html +=`
             <div class="character-card col-lg-4 col-md-6 ${e.color}">
-                <div class="character-img h-auto mw-100">
-                    <img style="background-image: url(./img/${e.character_img_1})" />
+                <div class="character-img mw-100">
+                    <img src="./img/${e.character_img_2}" />
                 </div>
                 <div class="character-info">
                     <h4>${e.name}</h4>
@@ -109,7 +109,7 @@ characters.forEach( e => {
 let b = characterSection.children
 let c = document.querySelectorAll(".character-card")
 // console.log(c)
-
+/*
 for(let i=0; i < c.length; i++) {
     c[i].addEventListener("mouseover", () => {
         
@@ -129,3 +129,5 @@ for(let i=0; i < c.length; i++) {
         c[i].children[0].children[0].style.transition = "ease-out 1.5s"
     })
 }
+
+*/
